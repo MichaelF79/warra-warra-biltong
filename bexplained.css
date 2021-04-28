@@ -1,0 +1,18 @@
+body {    
+  background: url('Slicer.jpg') no-repeat  fixed;     
+  background-size: cover;
+}
+
+
+main {
+  margin: 30px;
+}
+
+.jerky { margin-right: 20px;
+  margin-bottom: 10px;
+
+}
+
+h3 {
+  font-weight: 500;
+}

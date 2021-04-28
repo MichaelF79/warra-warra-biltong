@@ -1,0 +1,61 @@
+
+main {
+  display:flex;
+  justify-content:space-around;
+}
+
+main > .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 660px;
+  padding: 20px;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 30px;
+}
+
+.price {
+  color:rgb(73, 73, 73);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.description {
+  color: black;
+  font-size:large;
+}
+
+.info {
+  font-size: small;
+}
+
+.card button {
+  border: none;
+  outline: 10;
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor:grab;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+#paddle {
+  box-shadow: none;
+  
+}
+

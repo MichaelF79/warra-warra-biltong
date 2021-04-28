@@ -1,0 +1,16 @@
+body {    
+  background: url('Flags3.jpg') no-repeat  fixed;     
+  background-size: cover;
+}
+
+
+main {
+  margin: 30px;
+}
+
+.slices {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+
