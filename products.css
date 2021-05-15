@@ -4,6 +4,10 @@ main {
   justify-content:space-around;
 }
 
+h3 {
+  font-weight: 500;
+}
+
 main > .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,11 +17,11 @@ main > .grid-container {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   width: 300px;
-  height: 660px;
+  height: 600px;
   padding: 20px;
   text-align: center;
   font-family: arial;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .price {
@@ -42,7 +46,7 @@ main > .grid-container {
   padding: 15px;
   color: white;
   background-color: #000;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   cursor:grab;

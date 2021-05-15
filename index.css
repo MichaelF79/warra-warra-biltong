@@ -1,0 +1,41 @@
+body {    
+  background: url('images/background1.jpg') no-repeat center fixed;     
+  background-size: cover;
+}
+
+.header {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 50px;
+}
+
+/* .stamp {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} */
+
+footer {
+  text-align: center;
+}
+
+.date {
+  justify-content: center;
+}
